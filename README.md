@@ -1,2 +1,3 @@
-# donaldjennings.github.io
-Repository for github pages
+# Portfolio website
+
+This repository contains all the source code for my portfolio website. 
