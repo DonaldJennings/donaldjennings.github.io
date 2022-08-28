@@ -1,0 +1,108 @@
+
+body {
+  font-family: 'Open Sans';
+  margin: 0;
+}
+
+header {
+  background-color: #181a1b;
+  background-size: cover;
+  min-height: 60vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introduction-banner {
+  z-index: 5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+
+.intro-h1 {
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 4vw;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.intro-p {
+  margin: 0;
+  text-align: center;
+}
+
+.blue-text {
+  color: #29648A;
+}
+
+/* PROJECT SECTION */
+
+.project-section-title {
+  width: 100%;
+  font-size: 3vw;
+  color: #29648A;
+  text-align: center;
+}
+
+.projects {
+  max-width: 1200px;
+  padding: 1.5rem 1.5rem;
+  margin: auto;
+  transition: all 0.3s ease;
+}
+
+.project-image {
+  width: 95%;
+}
+
+
+.project-title, .project-description {
+  text-align: left;
+}
+
+.project-title {
+  width: 100%;
+}
+
+.project-description {
+  font-size:1vw;
+}
+.project-container-left {
+  flex: 50%;
+  margin-right: 2rem;
+  float: left;
+}
+
+.project-container-left .project-main-img {
+  width:100%
+}
+
+.project-container-right {
+  flex: 50%;
+  flex-direction: column;
+  display: flex;
+  margin-left: 2rem;
+  float: right;
+}
+.project {
+  display:flex;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.subtitle {
+  color: #29648A;
+}
+
+#particles-js {
+  background-color: #181a1b;
+  position: relative;
+  width: 100%;
+  min-height: 60vh;
+}
